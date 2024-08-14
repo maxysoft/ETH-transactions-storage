@@ -11,7 +11,7 @@ CREATE TABLE public.ethtxs
     txhash citext,
     value numeric,
     contract_to citext,
-    contract_value citext,
+    contract_value citext
 );
 
 CREATE VIEW max_block as
